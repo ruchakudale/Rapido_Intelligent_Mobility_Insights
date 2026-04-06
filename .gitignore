@@ -1,0 +1,92 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+*
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.python-version
+
+# ===============================
+# Jupyter Notebook
+# ===============================
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# ===============================
+# Data Files (very important for ML projects)
+# ===============================
+data/raw/
+data/processed/
+*.xlsx
+*.parquet
+*.feather
+*.pkl
+*.pickle
+
+# ===============================
+# Model Files
+# ===============================
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.model
+models/*.bin
+
+# ===============================
+# Streamlit cache
+# ===============================
+.streamlit/
+.streamlit/secrets.toml
+
+# ===============================
+# Logs
+# ===============================
+logs/
+*.log
+
+# ===============================
+# OS Files
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# IDE / Editors
+# ===============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===============================
+# Build / Packaging
+# ===============================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ===============================
+# Environment variables
+# ===============================
+.env
+.env.*
+
+# ===============================
+# Temporary files
+# ===============================
+*.tmp
+*.temp
+
+# ===============================
+# Matplotlib cache
+# ===============================
+.matplotlib/
